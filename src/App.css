@@ -1,6 +1,23 @@
+/* site-wide css */
 #facolor{
   font-size: 24px;
   color: white;
+}
+
+a:link {
+  text-decoration: none 
+}
+
+a:hover {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.align-center{
+  text-align: center;
 }
 
 body{
@@ -19,6 +36,8 @@ font-size: 20px;
 }
 
 
+
+/* landing page css */
 .landing-grid {
 background: #42275a;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
@@ -33,6 +52,9 @@ height: 100%;
 .avatar-img {
   border-radius: 10%;
   margin-top: 20px;
+  border-radius: 20px;
+  height: 250px;
+
 }
 
 .banner-text {
@@ -125,11 +147,15 @@ height: 100%;
   padding-right: 15px;
 }
 
+
+
+/* project page css */
 .card-title h2 {
-  background-color: blue;
-}
-
-
-.align-center{
+  font-family: oswald;
+  font-size: 30px;
+  color: white;
   text-align: center;
 }
+
+
+
