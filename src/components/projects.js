@@ -16,16 +16,16 @@ class Projects extends Component {
           
           
           {/* Project 1 */}
-    <Card shadow={4} style={{width: '320px', height: '320px', margin: 'auto', align:'left'}}>
+    <Card shadow={4} style={{width: '320px', height: '320px', margin: 'auto', alignContent:'flex-start' }}>
         <CardTitle
             className="card-title align-center"
             style={{
               color: 'white',
-              height: '150px',
+              height: '100px',
               background: 'black',
               // 'url(https://image.flaticon.com/icons/svg/69/69084.svg) center / cover'
             }}>
-            Project: Click-It
+            Click-It
           </CardTitle>
           
 
@@ -52,16 +52,16 @@ class Projects extends Component {
             className="card-title align-center"
             style={{
               color: '#fff', 
-              height: '176px',
+              height: '100px',
               background: 'black'
               }} >
-              Project: Sequelize
+              Burger Sequelize
               </CardTitle>
             <CardText>
               Users have the option to add or "eat" a burger.  App uses MySQL and Sequelize to store and retreive data, Express, and Node JS.
             </CardText>
             <CardActions border className="align-center">
-              <Button colored>GitHub</Button>
+              <a href='https://github.com/lmaaronson/burger-project-sequelize'rel='noopener noreferrer' target='_blank' ><Button colored>GitHub</Button></a>
               <Button colored></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -81,7 +81,7 @@ class Projects extends Component {
               background: 'black' }}
               // background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} 
               >
-              Project: Bootcamp Bookmarks
+              Bootcamp Bookmarks
               </CardTitle>
             <CardText>
              Group project with a 5 day timeline.  
@@ -106,10 +106,10 @@ class Projects extends Component {
             className="card-title align-center"
             style={{
               color: '#fff', 
-              height: '176px',
+              height: '100px',
               background: 'black'
               }} >
-              Project: Code Savvy Website
+              Code Savvy 
               </CardTitle>
             <CardText>
               Created new UI/UX for this non-profit and then developed the website from 
@@ -117,8 +117,7 @@ class Projects extends Component {
               site.  Perform on-going maintenance and updates to site.
             </CardText>
             <CardActions border className="align-center">
-              <Button colored>GitHub</Button>
-              <Button colored></Button>
+              <a href='https//:www.codesavvy.org' rel='noopener noreferrer' target='_blank'><Button colored>Website</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
             </CardMenu>
