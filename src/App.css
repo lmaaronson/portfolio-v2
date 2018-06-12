@@ -1,3 +1,12 @@
+
+/* nav bar css */
+.nav-style {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+
 /* site-wide css */
 #facolor{
   font-size: 24px;
@@ -158,4 +167,29 @@ height: 100%;
 }
 
 
+.tab-titles {
+  font-size: 16px;
+  color: white;
+  font-family: 'Oswald';
+  background-color: white;
+}
 
+
+/* aboutme page css */
+
+.aboutme-grid {
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+  height: 750px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.aboutme-grid p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  font-size: 20px
+}

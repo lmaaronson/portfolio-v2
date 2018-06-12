@@ -12,7 +12,7 @@ class Landing extends Component {
               alt= 'avatar' 
               className='avatar-img'
             />
-          
+          < br/> <br /> < br/> <br />
             <div className='banner-text'>
               <h1> Full Stack Web Developer </h1>
 
