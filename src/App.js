@@ -17,8 +17,7 @@ class App extends Component {
             <Navigation>
                 <a href="/aboutme">About Me</a>
                 <a href="/projects">Projects</a>
-                <a href="/contact">Contact Me</a>
-                <a href="/resume">Resume</a>
+                <a href="https://drive.google.com/file/d/1wpehvEfoGCEbRYInx-rC73JyWsIPXFS6/view?usp=sharing" target="_blank">Resume</a>
             </Navigation>
         </Header>
         

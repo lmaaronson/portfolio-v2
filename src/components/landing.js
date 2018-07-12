@@ -32,10 +32,20 @@ class Landing extends Component {
                 <i class='fa fa-github-square' aria-hidden='true'/>
               </a>
             
-            {/* github icon */}
+            {/* twitter icon */}
               <a href='https://twitter.com/lmaaronson?lang=en' rel='noopener noreferrer' target='_blank'>
                 <i class='fa fa-twitter-square' aria-hidden='true'/>
               </a>
+            
+            {/* email icon */}
+            <a href='mailto:aaronson.laurie@gmail.com' rel='noopener noreferrer' target='_blank'>
+              <i className= 'fa fa-envelope-square' aria-hidden= 'true' />
+            </a>
+
+            {/* phone call icon */}
+            <a href='tel:651-208-0936' rel='noopener noreferrer' target='_blank'>
+              <i className= 'fa fa-phone-square' aria-hidden= 'true'/>
+            </a>
               </div>
             </div>
         </Cell>

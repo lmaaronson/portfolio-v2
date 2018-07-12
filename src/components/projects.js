@@ -71,7 +71,8 @@ class Projects extends Component {
       )
   } else if(this.state.activeTab === 1) {
     return (
-      <div>
+      <div className="projects-grid" title>
+  {/* bootcamp bookmarks */}
          <Card shadow={4} style={{width: '320px', height: '320px', margin: 'auto'}}>
             <CardTitle 
             className="card-title align-center"
@@ -85,7 +86,7 @@ class Projects extends Component {
               </CardTitle>
             <CardText>
              Group project with a 5 day timeline.  
-             HTML, CSS, Javascript, Jquery, Bootstrap, SQL, Node, NPM, Express, Sequelize, 
+             HTML, CSS, Javascript, JQuery, Bootstrap, SQL, Node, NPM, Express, Sequelize, 
              Handlebars, MVC framework, Postman for testing.  Deployed on Heroku
             </CardText>
             <CardActions border className='align-center'>
@@ -96,11 +97,36 @@ class Projects extends Component {
               {/* <IconButton name="share" /> */}
             </CardMenu>
           </Card>
+      
+          <Card shadow={4} style={{width: '320px', height: '320px', margin: 'auto'}}>
+            <CardTitle 
+            className="card-title align-center"
+            style={{
+              color: '#fff', 
+              height: '100px',
+              background: 'black' }}
+              // background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} 
+              >
+              Code 200: Job Found
+              </CardTitle>
+            <CardText>
+             Group project with a 6 day timeline.  
+             Passport Local, React, HTML, CSS, Javascript, JQuery, Bootstrap, SQL, Node, NPM, Express, Sequelize, 
+             MVC framework, Postman for testing.
+            </CardText>
+            <CardActions border className='align-center'>
+            <a href='https://github.com/lmaaronson/code200-job-found' rel='noopener noreferrer' target='_blank'><Button colored>GitHub</Button></a>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              {/* <IconButton name="share" /> */}
+            </CardMenu>
+          </Card>
       </div>
     )
   } else if(this.state.activeTab === 2) {
     return (
-      <div>
+      <div className="projects-grid" title>
+{/* codesavvy site */}
          <Card shadow={4} style={{width: '320px', height: '320px', margin: 'auto'}}>
             <CardTitle 
             className="card-title align-center"
@@ -117,7 +143,27 @@ class Projects extends Component {
               site.  Perform on-going maintenance and updates to site.
             </CardText>
             <CardActions border className="align-center">
-              <a href='https//:www.codesavvy.org' rel='noopener noreferrer' target='_blank'><Button colored>Website</Button></a>
+              <a href='http://www.codesavvy.org' rel='noopener noreferrer' target='_blank'><Button colored>Website</Button></a>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+            </CardMenu>
+          </Card>
+{/* technovation site */}
+          <Card shadow={4} style={{width: '320px', height: '320px', margin: 'auto'}}>
+            <CardTitle 
+            className="card-title align-center"
+            style={{
+              color: '#fff', 
+              height: '100px',
+              background: 'black'
+              }} >
+              Technovation[MN]
+              </CardTitle>
+            <CardText>
+              Perform on-going maintenance and updates to site.
+            </CardText>
+            <CardActions border className="align-center">
+              <a href='http://www.technovationmn.org' rel='noopener noreferrer' target='_blank'><Button colored>Website</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
             </CardMenu>

@@ -7,7 +7,7 @@ class Contact extends Component {
     return(
       <div className='contact-body'>
         <Grid className='contact-grid'>
-          <Cell col={6}> 
+          <Cell col={5}> 
           <h2> Laurie Aaronson</h2>
           <hr/>
           <img
@@ -17,7 +17,7 @@ class Contact extends Component {
                />
           <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}> Looking for opportunities for learning, engagement and professional/personal development to build my knowledge base and abilities.</p>
           </Cell>
-          <Cell col={6}> 
+          <Cell col={7}> 
           <h2> Contact Me</h2>
           <hr/>
 
@@ -28,18 +28,23 @@ class Contact extends Component {
                 <i className= 'fa fa-phone-square' aria-hidden= 'true'/>
               (651) 208-0936</ListItemContent>
             </ListItem>
+            
             <ListItem>
-              <ListItemContent style={{ fontSize: '24px', fontFamily: 'Oswald' }}>
-                <i className= 'fa fa-envelope-square' aria-hidden= 'true'/>
-              Email</ListItemContent> </ListItem>
+            <a href="mailto:someone@example.com" target="_blank">
+            <ListItemContent style={{ fontSize: '24px', fontFamily: 'Oswald' }}>
+            <i className= 'fa fa-envelope-square' aria-hidden= 'true' />
+                aaronson.laurie@gmail.com</ListItemContent></a></ListItem>
+            
             <ListItem>
-              <ListItemContent style={{ fontSize: '24px', fontFamily: 'Oswald' }}>
+              <ListItemContent style={{ fontSize: '20px', fontFamily: 'Oswald' }}>
                 <i className= 'fa fa-github-square' aria-hidden= 'true'/>
-              GitHub</ListItemContent> </ListItem>
+                https://github.com/lmaaronson</ListItemContent> </ListItem>
+            
             <ListItem>
-              <ListItemContent style={{ fontSize: '24px', fontFamily: 'Oswald' }}>
+              <ListItemContent style={{ fontSize: '18px', fontFamily: 'Oswald' }}>
                 <i className= 'fa fa-linkedin-square' aria-hidden= 'true'/>
-              Linkedin</ListItemContent> </ListItem>
+                https://www.linkedin.com/in/laurie-aaronson/
+              </ListItemContent> </ListItem>
             
             
             

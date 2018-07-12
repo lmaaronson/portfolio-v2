@@ -3,6 +3,7 @@
 .nav-style {
   font-size: 20px;
   text-decoration: none;
+  
 }
 
 
@@ -11,17 +12,21 @@
 #facolor{
   font-size: 24px;
   color: white;
+  text-decoration: none;
 }
 
 a:link {
-  text-decoration: none 
+  text-decoration: none;
+  color: white;
 }
 
 a:hover {
+  text-decoration: none;
   color: white;
 }
 
 a:visited {
+  text-decoration: none;
   color: white;
 }
 
@@ -185,11 +190,11 @@ height: 100%;
   background: white;
   color: black;
   margin-bottom: 20px;
+  font-family: 'Oswald', sans-serif
 }
 
 .aboutme-grid p {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
   text-align: left;
   font-size: 20px
 }
